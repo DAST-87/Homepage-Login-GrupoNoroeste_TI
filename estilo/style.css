@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
+    padding: 100px 0;
 }
 #main-text{
     font-family: Roboto, 'Times New Roman', Times, serif;
@@ -56,9 +56,10 @@
 }
 #main-form{
     padding-top: 30px;
+    
 }
 #input-pin{
-    border: solid #707070 1px;
+    border: solid #7070708c 1.5px;
     padding: 8px;
     font-family: Roboto, 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -76,4 +77,27 @@
     font-family: Roboto, 'Times New Roman', Times, serif;
     color: white;
     width: 133px;
+}
+.alert{
+    background-color: #B10101;
+    display: flex;
+    justify-content: center;
+    height: 190px;
+    align-items: center;
+}
+#cont-alert{
+    display: flex;
+    align-items: center;
+}
+#cont-alert p{
+    color: white;
+    font-size: 16px;
+    font-family: Roboto,  'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+#cont-alert p img{
+    width: 100px;
+    height: auto;
+    fill: #FFFFFF;
+    
 }
