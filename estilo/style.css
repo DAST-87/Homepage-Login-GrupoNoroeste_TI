@@ -1,0 +1,79 @@
+*{ padding: 0; margin: 0;}
+
+.header{
+    background-image: url("../imagens/Banner-02.png");
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 412px;
+}
+.content-header{
+    width: 1166px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+#cont-logo{
+    margin-top: 50px;
+    
+}
+#cont-logo img{
+    width: 317px;
+    height: auto;
+}
+#cont-topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+#cont-topo h1{
+    color: #CB0D0D;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+#cont-topo p{
+    padding-top: 20px;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+#main-text{
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: #CB0D0D;
+    font-size: 20px;
+    font-weight: 300;
+}
+#main-form{
+    padding-top: 30px;
+}
+#input-pin{
+    border: solid #707070 1px;
+    padding: 8px;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    width: 350px;
+    border-radius: 5px;
+    
+}
+#input-acesso{
+    background-color: #EEB703;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: white;
+    width: 133px;
+}
