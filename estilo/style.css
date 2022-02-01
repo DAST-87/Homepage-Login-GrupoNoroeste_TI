@@ -2,22 +2,20 @@
 
 .header{
     background-image: url("../imagens/Banner-02.png");
+    background-size: cover;
     display: flex;
     justify-content: center;
-    width: 1920px;
     height: 412px;
 }
 .content-header{
     width: 1166px;
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
     
 }
 #cont-logo{
     margin-top: 50px;
-    
+   
 }
 #cont-logo img{
     width: 317px;
@@ -57,19 +55,31 @@
 #main-form{
     padding-top: 30px;
     
+    
 }
 #input-pin{
     border: solid #7070708c 1.5px;
-    padding: 8px;
+    padding-left: 8px;
     font-family: Roboto, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: rgb(70, 70, 70);
     width: 350px;
+    height: 50px;
     border-radius: 5px;
+    margin-right: 5px;
+    
     
 }
+#input-pin:focus{
+    
+    border: rgb(245, 209, 47) solid 2px;
+    outline: none;
+    box-shadow: #B10101 0px 0px 10px 0.2px ;
+    
+
+}
 #input-acesso{
-    background-color: #EEB703;
+    background-color: #fdc611;
     padding: 8px;
     border: none;
     border-radius: 5px;
@@ -77,6 +87,12 @@
     font-family: Roboto, 'Times New Roman', Times, serif;
     color: white;
     width: 133px;
+    height: 54px;
+    margin-left: 5px;
+}
+#input-acesso:hover{
+    background-color: #dbac12 ;
+    cursor: pointer;
 }
 .alert{
     background-color: #B10101;
@@ -100,4 +116,12 @@
     height: auto;
     fill: #FFFFFF;
     
+}
+footer{
+    background-color: rgb(207, 206, 206);
+    font-family: Calibri;
+    text-align: center;
+    height: 20px;
+    padding: 20px;
+    color: rgb(133, 133, 133);
 }
