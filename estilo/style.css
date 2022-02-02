@@ -72,11 +72,16 @@
 }
 #input-pin:focus{
     
-    border: rgb(245, 209, 47) solid 2px;
+    border: rgb(214, 143, 11) solid  2px;
     outline: none;
-    box-shadow: #B10101 0px 0px 10px 0.2px ;
+    box-shadow: #e9bf04 0px 0px 10px 0.1px ;
     
 
+}
+::placeholder{
+    color: #d4d3d3;
+    font-weight: 300;
+    
 }
 #input-acesso{
     background-color: #fdc611;
@@ -120,8 +125,58 @@
 footer{
     background-color: rgb(207, 206, 206);
     font-family: Calibri;
+    font-weight: 300;
     text-align: center;
     height: 20px;
     padding: 20px;
     color: rgb(133, 133, 133);
 }
+/*RESPONSIVIDADE TELA DE TABLET*/
+@media (max-width: 1200px){
+    #cont-logo{
+        padding-left: 20px;
+    }
+}
+/*RESPONSIVIDADE TELA DE SMARTPHONE*/
+@media (max-width: 750px){
+    .header{
+        border-radius: 0 0 70px 70px;
+        height: 360px;
+        transition: 0.5s;
+    }
+    #cont-logo{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    #cont-logo img{
+        width: 210px;
+        height: auto;
+    }
+    #cont-topo{
+        background-color: ;
+        
+    }
+    #cont-topo h1{
+        font-size: 30px;
+    }
+    #cont-topo p{
+        font-size: 20px;
+        width:80%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+    #main-text p{
+        font-size: 20px;
+        text-align: center;
+        width: 380px;
+    }
+    #input-acesso{
+        margin: 20px 0 0 0;
+    }    
+}
+
