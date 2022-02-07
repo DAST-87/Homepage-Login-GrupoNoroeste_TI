@@ -167,7 +167,7 @@ footer{
         font-size: 30px;
     }
     #cont-topo p{
-        font-size: 20px;
+        font-size: 18px;
         width:80%;
     }
     .main{
@@ -177,12 +177,19 @@ footer{
         padding: 50px 0;
     }
     #main-text p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         width: 380px;
     }
+    #input-pin{
+        width: 300px;
+        height: 40px;
+    }    
     #input-acesso{
         margin: 20px 0 0 0;
+        width: 128px;
+        height: 50px;
+        font-size: 18px;
     }
     .alert{
         padding: 0 30px 0 30px;
@@ -194,6 +201,9 @@ footer{
     #cont-alert p img{
         width: 80px;
         height: auto;
+    }
+    footer{
+        font-size: 12px;
     }    
 }
 
